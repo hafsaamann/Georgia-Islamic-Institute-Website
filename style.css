@@ -1,0 +1,190 @@
+
+        body {
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+        header {
+            background-color: #124407;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        nav {
+            background-color: #afd597;
+            padding: 10px 0;
+        
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+
+          }
+
+        nav a {
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #dce6d1;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        p {
+            color: #555;
+        }
+
+        article {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 10px;
+                }
+            .column {
+          float: left;
+          width: 50%;
+          padding: 10px;
+          height: 300px; /* Should be removed. Only for demonstration */
+        }
+        
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+          }
+                  .event-card {
+                      border: 1px solid #ddd;
+                      padding: 10px;
+                      margin-bottom: 20px;
+                      border-radius: 5px;
+                      background-color: #fff;
+                      transition: box-shadow 0.3s;
+                  }
+          
+                  .event-card:hover {
+                      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+                  }
+          .column2 {
+            float: left;
+            width: 33.33%;
+            padding: 10px;
+            height: 300px; /* Should be removed. Only for demonstration */
+          }
+          
+          /* Clear floats after the columns */
+          .row2:after {
+            content: "";
+            display: table;
+            clear: both;
+          }
+              .container {
+              display: flex;
+              justify-content: space-between;
+          }
+          
+          .sidebar {
+              width: 20%;
+              padding: 20px;
+          }
+          
+          .main-content {
+              width: 58%;
+              padding: 20px;
+          }
+          
+          .donate-button {
+              display: block;
+              width: max-content;
+              padding: 10px 20px;
+              margin-top: 10px;
+              background-color: #4CAF50;
+              color: white;
+              border: none;
+              text-align: center;
+              text-decoration: none;
+              font-size: 16px;
+          }
+          
+          .slideshow-container {
+              max-width: 1000px;
+              position: relative;
+              margin: auto;
+          }
+          
+          .mySlides {
+              display: none;
+          }
+          
+          .fade {
+              -webkit-animation: fade 1.5s;
+              animation: fade 1.5s;
+          }
+          
+          @keyframes fade {
+              from {opacity: .4}
+              to {opacity: 1}
+          }
+           
+
+        footer {
+            text-align: center;
+            color:white;
+            padding: 1em 0;
+            background-color: #afd597;
+            position:unset;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .form-container {
+            max-width: 400px; /* Set the maximum width of the form */
+            margin: 0 auto; /* Center the form horizontally */
+            padding: 20px; /* Add padding to the form */
+            background-color: #fff; /* Optionally, add a background color */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a shadow to the form */
+            border-radius: 8px; /* Add rounded corners to the form */
+        }
+        table {
+            width: 100%; /* Set the table width to 100% of the container */
+        }
+        
+        iframe {
+            width: 100%;
+            height: 700px;
+            border: none;
+            border-radius: 30px; /* Add border-radius to make iframes look round */
+            overflow: hidden; /* Ensure content inside iframes doesn't overflow rounded corners */
+        }
+header img {
+            width: 50px; /* Adjust the width as needed */
+            height: auto; /* Maintain aspect ratio */
+            margin: 10px; 
+        }
+.logo-container {
+            float: left; /* Aligns the logo to the left */
+            margin-right: 0px; /* Adjust as needed to create space between logo and heading */
+        }
+        
+       
